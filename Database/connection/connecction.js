@@ -6,7 +6,7 @@ export function connection()
     const databaseUrl = process.env.DATABASE_ONLINE_CONNECTION;
     mongoose.connect(databaseUrl)
     .then(()=>{
-
+ 
         console.log("db connection established");
 
  
