@@ -1,5 +1,13 @@
 import mongoose from "mongoose";
 
+
+
+
+
+
+
+
+
 const brandSchema = mongoose.Schema({
     name:{
         type: String,
