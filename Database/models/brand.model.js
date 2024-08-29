@@ -1,12 +1,6 @@
 import mongoose from "mongoose";
 
-
-
-
-
-
-
-
+// brandSchema
 
 const brandSchema = mongoose.Schema({
     name:{
