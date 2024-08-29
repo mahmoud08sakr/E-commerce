@@ -36,15 +36,6 @@ app.use('/api/v1/wishList', wishListRouter )
 app.use('/api/v1/coupone', couponeRoutes )
 app.use('/api/v1/cart', cartRoutes ) 
 app.use('/api/v1/order', orderRoutes ) 
-
-
-
-
-
-
-
-
-
 app.use(express.static("uploads"))
 app.use(express.urlencoded({extended:true}))
 
